@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+/* 共通部分
+----------------------------- */
+html {
+  font-size: 100%;
+}
+body {
+  font-family: '游明朝', YuMincho;
+}
+img {
+  max-width: 100%
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  font-family: Copperplate;
+}
+ul {
+  list-style: none;
+}
+h1{
+  text-align: center;
+  font-family: Copperplate;
+}
+h2 {
+  text-align: center;
+  font-family: Copperplate;
+  font-size: 38px;
+  padding-top: 50px;
+}
+h3 {
+  text-align: center;
+  font-family: Copperplate;
+  font-size: 23px;
+  padding: 3px 0 35px 0;
+}
+h4 {
+  padding-bottom: 15px;
+}
+.exp-text {
+  padding-bottom: 55px;
+}
+.content-text {
+  text-align: center;
+  padding-top: 10px;
+}
+a.anchor {
+    display: block;
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+/* HEADER
+----------------------------- */
+header {
+  background: rgba(255, 255, 255, 1);
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.header-content img {
+  width: 40px;
+}
+
+.main-nav {
+  display: flex;
+}
+
+.main-nav li {
+  margin-left: 30px;
+  font-size: 25px;
+}
+
+.main-nav a {
+  color: #000000;
+  transition: all 0.5s;
+}
+
+.main-nav a:hover {
+  color: #add580;
+  animation:
+}
+
+/* MAIN-TITLE
+----------------------------- */
+.main-title {
+  margin-top: 80px;
+  background-image: url(images/background-park-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+.title-text {
+  padding-top: 450px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.title-text h1 {
+  font-size: 40px;
+}
+
+.title-text h3 {
+  font-size: 25px;
+}
+
+/* WORKS-WEB
+----------------------------- */
+.works-web {
+  background: #f5f5f5;
+}
+.works-web h2 {
+  padding-top: 20px;
+}
+.web-content-container {
+  display: flex;
+  padding-bottom: 35px;
+}
+.web-content {
+  padding: 0 10px;
+}
+
+/* WORKS-GOODS
+----------------------------- */
+.works-goods {
+  background: #eeeeee;
+}
+.goods-content-container {
+  display: flex;
+  padding-bottom: 35px;
+}
+.goods-content {
+  padding: 0 10px;
+}
+
+/* WORKS-ARTWORK
+----------------------------- */
+.works-artwork {
+  background: #f5f5f5;
+}
+.artwork-content-container {
+  display: flex;
+  padding-bottom: 35px;
+}
+.artwork-content {
+  padding: 0 10px;
+}
+
+/* PROFILE
+----------------------------- */
+.profile {
+  background: #eeeeee;
+}
+.profile h2 {
+  padding-bottom: 35px;
+}
+.profile-container {
+  display: flex;
+  padding-bottom: 60px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 260px;
+  height: auto;
+  margin-right: 30px
+}
+
+/* CONCEPT
+----------------------------- */
+.concept {
+  background: #f5f5f5;
+}
+.concept h2 {
+  padding-bottom: 35px;
+}
+
+/* FOOTER
+----------------------------- */
+footer {
+  background: #c3c3c3;
+  text-align: center;
+  padding: 6px 0;
+}
